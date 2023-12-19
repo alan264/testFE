@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1768px;
+  height: auto;
+  display: flex;
+  justify-content: space-between; /* Để các thẻ div cách nhau bằng khoảng trắng */
+  width: 100%;
+}
+.sidebar {
+  height: auto;
+  width: 150px;
+  background-color: black;
+  box-sizing: border-box;
+}
+.txt-home {
+  color: #fff;
+}
+.hr {
+  opacity: 0.7;
+}
+.sidebar .txt-home {
+  padding: 20px 0 15px 20px;
+}
+.sidebar .content {
+  padding: 20px 0 15px 20px;
+}
+.sidebar .content h3 {
+  color: #5c5c5c;
+}
+.sidebar .content:hover {
+  background-color: #5c5c5c;
+}
+.sidebar .content:hover h3 {
+  color: #fff;
+}
+
+/* ================== */
+.main {
+  width: 100%;
+  box-sizing: border-box;
+}
+.main .content {
+  /* background-color: red; */
+  padding: 20px 120px 30px;
+}
+.main .logo {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.main .logo img {
+  max-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.intro {
+  text-align: center;
+  background-color: #efefef;
+  padding: 38px 20% 38px;
+}
+.row1 {
+  margin-bottom: 20px;
+  /* padding: 38px 0 20px; */
+}
+.list {
+  padding: 30px 0 180px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.box {
+  width: 100%;
+  box-sizing: border-box;
+  /* height: 100px;  */
+  padding-right: 20px;
+
+}
+.box h2{
+  margin-bottom: 20px;
+  margin-right: 30px;
+  
+}
+.child{
+  display: flex;
+  justify-content: space-between; 
+  width: 100%;
+}
+
